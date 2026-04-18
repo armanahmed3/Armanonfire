@@ -2,6 +2,7 @@
   "apiKey": "AIzaSyCidTYYlGAEPqfiMv4E3DW0FFKbbtV4Nys",
   "authDomain": "ai-and-ml-e9311.firebaseapp.com",
   "projectId": "ai-and-ml-e9311",
+  "databaseURL": "https://ai-and-ml-e9311-default-rtdb.firebaseio.com",
   "storageBucket": "ai-and-ml-e9311.firebasestorage.app",
   "messagingSenderId": "739990376148",
   "appId": "1:739990376148:web:a6f5c1ead150bebd503541",

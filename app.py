@@ -1039,6 +1039,8 @@ TRAIN_QUOTA = 5  # per month for free users
 
 # ----- FIREBASE SETUP -----
 firebase_config = json.load(open(os.path.join(BASE, "firebase_config.json")))
+if "databaseURL" not in firebase_config:
+    firebase_config["databaseURL"] = f"https://{firebase_config['projectId']}.firebaseio.com"
 firebase = pyrebase.initialize_app(firebase_config)
 auth = firebase.auth()
 db = firebase.database()
